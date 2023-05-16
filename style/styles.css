@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    
+    background-image: url("../slike/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#naslov {
+    color:Gold;         
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 390px;
+    font-weight: bold;
+
+}
+
+#glavni {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 60%;
+   color:Gold;
+   /*font-weight: bold;*/
+    
+}
+
+
+
+#igrac {
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+}
+
+.igralec {
+
+    min-height: 100px;
+    width: 100%;
+   
+
+}
+
+#izbira {
+  
+    text-align: center;
+
+}
+
+.gumb{
+    
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Barva ozadja gumba */
+        color: #ffffff; /* Barva besedila gumba */
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px; /* Zaobljeni robovi */
+        transition: background-color 0.3s ease; /* Animacija prehoda barve ozadja */
+      
+
+}
+.lolek{
+    color:blue;
+  }
+mark {
+    background-color: transparent; /* Transparentno ozadje */
+    color: inherit; /* Dedovanje barve besedila */
+    text-decoration: none; /* Brez podčrtaja ali drugih dekoracij */
+    
+  }
+
+ 
+
+.gumb:hover {
+    background-color: #1220e2; /* Barva ozadja gumba ob prehodu s kazalnikom miške */
+  }
+
+  .posebn{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
